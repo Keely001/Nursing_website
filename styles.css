@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+#home {
+    background-color: #ecf2ff;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+#home .navBar {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#home .logo{
+    /* border: red solid 2px; */
+    margin-top: 5px;
+    font-size: 1.5rem;
+    
+}
+#home .logo a{
+    text-decoration: none;
+    color: #22c0d4;
+}
+#home .listItems{
+    /* border: solid red 2px; */
+    width: 60%;
+}
+#home .listItems ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 5px;
+    justify-content: space-around;
+
+}
+#home .listItems ul a{
+    text-decoration: none;
+    color: #22c0d4;
+    transition: .8s;
+}
+#home .listItems ul a:hover{
+    color: blue;
+}
+#home .fstCont {
+    display: flex;
+    color: #19A7CE;
+    margin-top: 20px;
+    width: 100%;
+}
+#home .fstHalf{
+    margin-top: 50px;
+    line-height: 2;
+    font-weight: 900;
+    font-size: 20px;
+    /* border: solid 2px red; */
+    width: 50%;
+    height: 500px;
+}
+#btn1 {
+    margin-top: 100px;
+    margin-left: 25%;
+    color: white;
+    background-color: #19A7CE;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    width: 50%;
+}
+#home .fstHalf .btns{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#home .fstHalf .btns button{
+    color: black;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    width: 30%;
+    border: solid 2px #61adeb;
+}
+#home .fstHalf .btns button:hover{
+    background-color: #22c0d4;
+}
+.scdHalf 
+{
+    position: relative;
+    /* border: solid 2px red; */
+    
+}
+.scdHalf img{
+    
+}
+#home .scdHalf .loginArea{
+    position: absolute;
+    width:210px;
+    height: 350px;
+    text-align: center;
+    border: solid 2px #61adeb;
+    top: 100px;
+    left: 370px;
+    display: block;
+    line-height: 4;
+    z-index: 11;
+}
+input{
+    border: none;
+    border-bottom: solid 2px #61adeb;
+    background-color: transparent;
+    width: 90%;
+}
+#home .scdHalf .loginArea button a{
+    text-decoration: none;
+    color: #22c0d4;
+}
+#home .scdHalf .loginArea button {
+    background-color: transparent;
+    border: none;
+    width: 50%;
+}
+#home .scdHalf .loginArea .btn2 {
+    border: solid 2px #22c0d4;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #22c0d4;
+
+}
+
+/* About section */
+#about{
+    background:url(images/About_image.jfif) no-repeat center center/ cover;
+    height: 100vh;
+    margin-top: 0;
+    color: white;
+    padding: 10px;
+}
+#about h1{
+    color: #22c0d4;
+    font-style: italic;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+#about p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#about #services {
+    display:flex;
+    justify-content: space-around;
+    align-items: first baseline;
+    width: 100%;
+    height: 500px;
+    /* border: solid 2px black; */
+}
+#about #services .card{
+    width: 20%;
+    /* border: #61adeb solid 2px; */
+    border-radius: 5px;
+    height: 340px;
+}
+#about #services img {
+    width: 100%;
+    height: 200px;
+    image-rendering: no-repeat center center/ cover;
+    /* border: solid 2px black; */
+}
+#about #services .card h4{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+#about #services .card p{
+    font-size: 15px;
+    text-align: center;
+    color: #22c0d4;
+}
